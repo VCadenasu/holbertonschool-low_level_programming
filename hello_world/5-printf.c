@@ -3,7 +3,7 @@
  * main - A program that prints a parragraf
  * Return: 0 (success)
  */
-inc main(void)
+int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
