@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - A program that puts a script putchar.
+ * main - entry input
  * return: Always success (0)
  */
 
