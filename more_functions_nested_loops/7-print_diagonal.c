@@ -8,7 +8,7 @@
 
 void print_diagonal(int n)
 {
-	if (m <= 0)
+	if (n <= 0)
 	{
 		_putchar('\0');
 	} else
