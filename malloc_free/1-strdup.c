@@ -10,21 +10,21 @@
 
 char *_strdup(char *str)
 {
-        char *newstr;
+	char *newstr;
 
-        if (str == NULL)
-        {
-                return (NULL);
-        }
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
-        newstr = malloc(strlen(str) + 1);
+	newstr = malloc(strlen(str) + 1);
 
-        if (newstr == NULL)
-        {
-                return (NULL);
-        }
+	if (newstr == NULL)
+	{
+		return (NULL);
+	}
 
-        strcpy(newstr, str);
+	strcpy(newstr, str);
 
-        return (newstr);
+	return (newstr);
 }
