@@ -17,6 +17,13 @@ typedef struct dog
 	char *owner;
 } dog;
 
+/**
+ * struct dog_t - struct that contains a dog info
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
+ */
+
 typedef struct dog_t
 {
 	char *name;
