@@ -6,7 +6,8 @@
  * new_dog - function to print another dog data
  * @name: new dog name
  * @age: new dog age
- * @new dog owner
+ * @owner: dog owner
+ * Return: new dog data
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
